@@ -2,6 +2,8 @@ fun main() {
     print(solution("AABAA", "BBAAA"))
 }
 
+
+//to retain git
 fun solution(s: String, t: String): Int {
     val myMap1 = IntArray(26) { 0 }
     val myMap2 = IntArray(26) { 0 }
